@@ -1,0 +1,30 @@
+# Contributing to RCM-DX examples
+
+First of all, thank you very much for your help!
+
+This Project welcomes contributions, suggestions, and feedback.
+All contributions, suggestions, and feedback you submitted are accepted under the [Project's license](./LICENSE).
+You represent that if you do not own copyright in the code that you have the authority to submit it under the [Project's license](./LICENSE). All feedback, suggestions, or contributions are not confidential.
+
+## Where to get help
+
+Help is provided through the issue tracker. If you have a question, please create an issue in our issue board.
+
+## What do I need to know
+
+Requests for changes are evaluated by a committee. If the request is useful for the majority, it is included in an upcoming release. Don't be angry with us if it doesn't make it into the next release or even if it doesn't make it into a release at all.  
+Major changes to this specification will result in major changes in the software that follows this specification, so such changes are well thought out and take some time.
+
+## How can I contribute
+
+### Any bugs found
+
+If you find any bugs in the examples provided in this repository we would be grateful if you could let us know by creating an issue or even sending a pull request that fixes the problem!  
+
+### Suggest improvements or new features
+
+Improvements are desired and contribute to the success of this project. To suggest an improvement or a new feature, create a new issue or a pull request.
+
+### Participate and decide
+
+It is our goal to build an inclusive Open Source community around this project. If you want to participate in the ongoing development of the project, please get in touch via the issue tracker or email (rcm@sbb.ch).
