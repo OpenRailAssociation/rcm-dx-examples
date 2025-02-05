@@ -1,26 +1,26 @@
 ## Load_rcmdx_fromConfig
 
-Load_rcmdx_fromConfig load the data and metadata of a RCM-DX file in
+Load_rcmdx_fromConfig loads the data and metadata of an RCM-DX file in
 matlab. 
 
-By default the function read the whole content of the RCM-DX file. 
+By default the function reads the whole content of the RCM-DX file. 
 For example: `data = load_rcmdx_fromConfig('myPath\myfilename.rcmdx')`
 
-It is possible to ouput a configuration (config) as table or as
+It is possible to output a configuration (config) as table or as
 csv-file. By editing this config and passing it as option input, it is
-possible to read only certain data and/or metadata of a RCM-DX file.
-This can be usefull to access the data you really need and so improve
+possible to read only certain data and/or metadata of an RCM-DX file.
+This can be useful to access the data you really need and so improve
 the performance.
 
-Read the whole RCM-DX file and output only the config without data
+Reading the whole RCM-DX file and outputing only the config without data
 (output example: `[~, config]`) is really useful if you are not
-familiarized with RCM-DX structure. It allows to know the strucutre,
+familiarized with RCM-DX structure. It allows you to know the structure,
 generate a config and then access the needed data. To avoid reading data 
-and metadata, which want be time consuming, use the option
+and metadata, which would be time consuming, use the option
 processConfigOnly.
 For example: `[~, config] = load_rcmdx_fromConfig('myPath\myfilename.rcmdx', 'processConfigOnly', 'on')`
 
-Please refer to [examples](#Examples) section for more informations about how to use
+Please refer to the [examples](#Examples) section for more information about how to use
 this function.
 
 ### Examples
@@ -50,7 +50,7 @@ Return only config as matlab table and read everything in RCM-DX file
 ```
 
 #### Example 4 with 'config' option.
-Read only parts of RCM-DX file defined in config, where config is a matlab table.
+Read only parts of the RCM-DX file defined in config, where config is a matlab table.
 ```matlab
 data = load_rcmdx_fromConfig('myPath\myfilename.rcmdx', 'config', config)
 ```
