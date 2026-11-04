@@ -11,7 +11,7 @@ The requirements.txt file specifies the necessary libraries (packages and versio
 
 pip install -r requirements.txt
 
-In order to use all the script it will be required to load the application ffmpeg.exe if it doen't exist already on your computer.
+In order to use all the script it will be required to load the application ffmpeg.exe if it does not exist already on your computer.
 you can download it from https://www.ffmpeg.org/download.html#build-windows and locate the .exe in the project folder
 
 ## Data Source
@@ -29,11 +29,11 @@ The scripts provided in this repository are specifically designed to work with t
 
 ## Use
 
-1-Create a virtual environnement
+1-Create a virtual environment
 
 2-Install the needed python library
 
-3-Load the needed excecutable (ffmpeg.exe)
+3-Load the needed executable (ffmpeg.exe)
 
 4-Run the code Load_RCMDX_demo_Data to load the demo Data
 
